@@ -1,0 +1,32 @@
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 925px;
+}@media (max-width: 992px){
+	.navbar-nav {
+    flex-direction: row-reverse;
+    }
+}
+@media (max-width: 899px){
+	.aside {
+    opacity: 0 !important;
+    }
+    .image-part {
+    opacity: 0 !important;
+    }.image-part-2 {
+    opacity: 0 !important;
+    }
+    .logo-section li {
+    margin-right: 50px;
+    }
+}
+
+@media(max-width: 800px){
+    .logo-section li {
+    margin-right: 45px;
+    }
+}
+@media(max-width: 767px){
+    .logo-section li {
+    margin-right: 30px;
+    }
+}
